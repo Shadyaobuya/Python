@@ -13,3 +13,18 @@ class Student():
 # No spaces
 # Use a class to create objects or instances of that class
 
+
+# Using list comprehension, find the squares of only 
+# odd numbers and append them to an empty list. 
+
+lisst=[1,2,3,4,5,6,7,8,9]
+# oddsquares=[]
+# for i in lisst:
+#     if i%2!=0:
+#         oddsquares.append(i**2)
+# print(oddsquares)
+
+# squares=[i**2 for i in lisst if i%2!=0]
+# print(squares)
+lisst.sort(reverse=True)
+print(lisst)
