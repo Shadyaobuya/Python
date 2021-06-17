@@ -20,11 +20,9 @@ divisible_by_three(15)
 
 x = [[1,2],[3,4],[5,6]]
 
-
 def flatten_list():
     return [num for numb in x for num in numb]
     
-
 print(flatten_list())
 
 
