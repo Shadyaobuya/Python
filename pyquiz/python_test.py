@@ -37,9 +37,9 @@ flatten_list()
 
 def smallest(all_numbers):
     minimum=min(all_numbers) 
-    print(minimum)
+    return minimum
 
-smallest(all_numbers=[3,6,8,2,4,1,5,7])
+print(smallest(all_numbers=[3,6,8,2,4,1,5,7]))
 
 
 # Write a function that accepts list x below and uses a set 
@@ -47,8 +47,8 @@ smallest(all_numbers=[3,6,8,2,4,1,5,7])
 # m = ['a','b','a','e','d','b','c','e','f','g','h']
 x= ['a','b','a','e','d','b','c','e','f','g','h']
 def remove_duplicates(x):
-    print(set(x))
-remove_duplicates(x=x)
+    return set(x)
+print(remove_duplicates(x=x))
 
 # Write a function named divisible_by_seven that; 
 # using the range function and a for loop returns a list containing 
@@ -59,9 +59,9 @@ def divisible_by_seven():
     for numbs in range(100,200):
         if numbs%7==0:
             divisibility.append(numbs)
-    print(divisibility)
+    return divisibility
 
-divisible_by_seven()
+print(divisible_by_seven())
 
 # Given this list of students containing age and name,  
 # students = [{"age": 19, "name": "Eunice"}, {"age": 21, "name": "Agnes"}, 
