@@ -22,13 +22,10 @@ x = [[1,2],[3,4],[5,6]]
 
 
 def flatten_list():
-    # for num in z:
-    #     for numb in num:
-    #         print(numb,end='')
-    a=[num for numb in x for num in numb]
-    print(a)
+    return [num for numb in x for num in numb]
+    
 
-flatten_list()
+print(flatten_list())
 
 
 # Write a Python function named smallest that accepts a 
