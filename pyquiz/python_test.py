@@ -45,11 +45,10 @@ smallest(all_numbers=[3,6,8,2,4,1,5,7])
 # Write a function that accepts list x below and uses a set 
 # to remove the duplicate letters and returns the list without duplicates
 # m = ['a','b','a','e','d','b','c','e','f','g','h']
-
+x= ['a','b','a','e','d','b','c','e','f','g','h']
 def remove_duplicates(x):
-    y=set(x)
-    print(y)
-remove_duplicates(['a','b','a','e','d','b','c','e','f','g','h'])
+    print(set(x))
+remove_duplicates(x=x)
 
 # Write a function named divisible_by_seven that; 
 # using the range function and a for loop returns a list containing 
